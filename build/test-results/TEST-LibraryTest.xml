@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-10-23T17:50:28" hostname="Andrews-MacBook-Pro-81.local" time="0.001">
+<testsuite name="LibraryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-10-23T18:05:57" hostname="Andrews-MacBook-Pro-81.local" time="0.003">
   <properties/>
-  <testcase name="testSomeLibraryMethod" classname="LibraryTest" time="0.001"/>
+  <testcase name="lazyTest1" classname="LibraryTest" time="0.001"/>
+  <testcase name="lazyTest2" classname="LibraryTest" time="0.0"/>
+  <testcase name="lazyTest3" classname="LibraryTest" time="0.0"/>
+  <testcase name="triTest1" classname="LibraryTest" time="0.0"/>
+  <testcase name="triTest2" classname="LibraryTest" time="0.0"/>
+  <testcase name="triTest3" classname="LibraryTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

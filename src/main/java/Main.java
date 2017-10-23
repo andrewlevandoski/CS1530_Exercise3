@@ -27,12 +27,13 @@ public class Main {
   }
 
   public static void main(String[] args) {
-    String input = args[0];
+    String input;
     int n = 0;
     if(args.length != 1) {
       System.out.println("Incorrect number of arguments (should be 1)");
       System.exit(1);
     } else {
+      input = args[0];
       try {
         n = Integer.parseInt(input);
       } catch(Exception e) {

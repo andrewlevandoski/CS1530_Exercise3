@@ -8,7 +8,23 @@ import static org.junit.Assert.*;
  * @author AndrewLevandoski, @date 10/23/17 1:13 PM
  */
 public class LibraryTest {
-    @Test public void testSomeLibraryMethod() {
+    @Test public void triTest1() {
         assertEquals(15, Main.triangle(5));
+    }
+    @Test public void triTest2() {
+        assertEquals(55, Main.triangle(10));
+    }
+    @Test public void triTest3() {
+        assertEquals(0, Main.triangle(0));
+    }
+
+    @Test public void lazyTest1() {
+        assertEquals(16, Main.lazyCaterer(5));
+    }
+    @Test public void lazyTest2() {
+        assertEquals(56, Main.lazyCaterer(10));
+    }
+    @Test public void lazyTest3() {
+        assertEquals(1, Main.lazyCaterer(0));
     }
 }
